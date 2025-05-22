@@ -1,4 +1,5 @@
 import 'package:coffee_ph/core/theme/app_theme.dart';
+import 'package:coffee_ph/presentation/coffee_view.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Coffee PH',
       theme: AppTheme.lightTheme(),
-      home: Scaffold(),
+      home: CoffeeView(),
     );
   }
 }
